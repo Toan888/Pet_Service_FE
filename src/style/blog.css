@@ -1,0 +1,94 @@
+.cardd {
+  height: fit-content;
+  background-color: white;
+  border: 1px solid #CCC;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 17px 17px 27px 27px;
+}
+.fc-btn {
+  border-radius: 2px;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.fc-btn-default {
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+}
+
+.fc-btn-white {
+  background-color: #fff;
+  border: none;
+  color: #4b4f56;
+}
+
+.fc-btn-rounded {
+  background-color: #f5f6f7;
+  border: none;
+  color: #4b4f56;
+  border-radius: 20px;
+  width: 129px;
+  height: 30px;
+  
+}
+
+.fc-icon label {
+  margin-left: 18px;
+  margin-top: 2px;
+  width: 100px;
+}
+
+.fc-btn-primary {
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: #fff;
+}
+
+
+span {
+  color: #606770;
+  font-size: 12px;
+}
+
+.ellipsis-button {
+  position: absolute; /* Position the button absolutely */
+  right: 10px; /* Align the button to the right */
+  top: 10px; /* Align the button to the top */
+  background-color: #f5f6f7; /* Background color */
+  border: 1px solid #ccd0d5; /* Border */
+  color: #4b4f56; /* Text color */
+  border-radius: 50%; /* Rounded corners */
+  width: 30px; /* Width */
+  height: 30px; /* Height */
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.ellipsis-button:hover {
+  background-color: #ebedf0; /* Background color on hover */
+}
+
+/* blog.css */
+.dropdown-menu {
+  padding: 0; /* Remove padding from the dropdown menu */
+}
+
+.dropdown-item {
+  padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  text-align: center; /* Center align text */
+  min-width: 0; /* Remove any minimum width */
+}
+
+.list-unstyled {
+  margin: 0; /* Remove margin from the list */
+}
+
+.p-dialog .p-dialog-content {
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+}
+

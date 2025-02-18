@@ -1,0 +1,109 @@
+Payment Page CSS
+
+.payment-body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 34);
+    font-size: 0.8rem;
+background-color: aliceblue;
+}
+
+.payment-left, .payment-right {
+    padding: 2vh;
+    background-color: #ffffff;
+    margin-bottom: 2vh;
+}
+
+.payment-header {
+    font-size: 1.5rem;
+}
+
+.payment-icons {
+    margin-left: auto;
+}
+
+form span {
+    color: rgb(179, 179, 179);
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 2vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.lower {
+    line-height: 2;
+}
+
+.payment-btn {
+    background-color: rgb(23, 4, 189);
+    border-color: rgb(23, 4, 189);
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 2vh 0;
+    padding: 1.5vh;
+    border-radius: 0;
+}
+
+.payment-btn:focus {
+    box-shadow: none;
+    outline: none;
+    color: white;
+    transition: none;
+}
+
+.payment-btn:hover {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    width: unset;
+    margin-bottom: unset;
+}
+
+#cvv {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575) , rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+.upper {
+    padding: 1rem 0;
+    justify-content: space-evenly;
+    background-color: #ffffff; /* Thêm màu nền trắng */
+    border-bottom: 1px solid #ccc; /* Thêm đường viền dưới */
+    margin-bottom: 2rem; /* Thêm khoảng cách dưới */
+}
+
+.upper span {
+    padding: 0.5rem; /* Thêm padding cho span */
+}
+
+.upper span i {
+    margin-right: 0.5rem; /* Thêm khoảng cách giữa icon và text */
+}
+
+#payment {
+    color: blue;
+    font-weight: bold;
+}
